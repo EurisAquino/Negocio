@@ -28,7 +28,9 @@ namespace Negocio
                 { "Apellidos","Aquino Ulloa" },
                 { "Telefono","8298389495" },
                 { "Sexo","Masculino" },
-                { "Correo","frandi13@gmail.com" }
+                { "Correo","frandi13@gmail.com" },
+                { "Lugar Nacimiento","Republica Dominicana" },
+                { "Direccion","Ensanche Isabelita" }
                 };
 
             connection.insertData(json);
