@@ -29,6 +29,7 @@ namespace Negocio
             return table;
         }
 
+        //Insertar datos en la tabla Clientes
         public void Insert(string nombres, string apellidos, string edad)
         {
             command.Connection = connection.openConexion();
