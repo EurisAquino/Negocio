@@ -1,7 +1,4 @@
 ﻿using Amazon.Runtime.Documents;
-using MongoDB.Bson;
-using MongoDB.Driver;
-using MongoDB.Driver.Core.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Data;
