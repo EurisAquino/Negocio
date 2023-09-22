@@ -14,10 +14,6 @@ C:\Users\euris\source\repos\Negocio\bin\Debug\DnsClient.dll
 C:\Users\euris\source\repos\Negocio\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\euris\source\repos\Negocio\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\euris\source\repos\Negocio\bin\Debug\Microsoft.Win32.Registry.dll
-C:\Users\euris\source\repos\Negocio\bin\Debug\MongoDB.Bson.dll
-C:\Users\euris\source\repos\Negocio\bin\Debug\MongoDB.Driver.Core.dll
-C:\Users\euris\source\repos\Negocio\bin\Debug\MongoDB.Driver.dll
-C:\Users\euris\source\repos\Negocio\bin\Debug\MongoDB.Libmongocrypt.dll
 C:\Users\euris\source\repos\Negocio\bin\Debug\SharpCompress.dll
 C:\Users\euris\source\repos\Negocio\bin\Debug\Snappier.dll
 C:\Users\euris\source\repos\Negocio\bin\Debug\System.Buffers.dll
@@ -37,9 +33,6 @@ C:\Users\euris\source\repos\Negocio\bin\Debug\DnsClient.xml
 C:\Users\euris\source\repos\Negocio\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
 C:\Users\euris\source\repos\Negocio\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
 C:\Users\euris\source\repos\Negocio\bin\Debug\Microsoft.Win32.Registry.xml
-C:\Users\euris\source\repos\Negocio\bin\Debug\MongoDB.Bson.xml
-C:\Users\euris\source\repos\Negocio\bin\Debug\MongoDB.Driver.xml
-C:\Users\euris\source\repos\Negocio\bin\Debug\MongoDB.Driver.Core.xml
 C:\Users\euris\source\repos\Negocio\bin\Debug\Snappier.xml
 C:\Users\euris\source\repos\Negocio\bin\Debug\System.Buffers.xml
 C:\Users\euris\source\repos\Negocio\bin\Debug\System.Memory.xml

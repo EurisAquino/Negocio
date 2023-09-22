@@ -5,8 +5,6 @@ using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MongoDB.Bson;
-using MongoDB.Driver;
 using ThirdParty.Json.LitJson;
 
 namespace Negocio
