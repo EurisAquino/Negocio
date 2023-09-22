@@ -19,21 +19,6 @@ namespace Negocio
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
-
-            var connection = new Connection();
-
-            var json = new BsonDocument {
-                { "client_ID", 00002 },
-                { "Nombre","Frandy" },
-                { "Apellidos","Aquino Ulloa" },
-                { "Telefono","8298389495" },
-                { "Sexo","Masculino" },
-                { "Correo","frandi13@gmail.com" },
-                { "Lugar Nacimiento","Republica Dominicana" },
-                { "Direccion","Ensanche Isabelita" }
-                };
-
-            connection.insertData(json);
             
         }   
     }
