@@ -16,5 +16,14 @@ namespace Negocio
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DBOperations operation = new DBOperations();
+
+            operation.Insert("Beyby Ruth", "Ulloa Peña", "51");
+
+            this.Close();
+        }
     }
 }

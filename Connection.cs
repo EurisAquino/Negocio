@@ -1,24 +1,37 @@
 ﻿using Amazon.Runtime.Documents;
 using MongoDB.Bson;
 using MongoDB.Driver;
+using MongoDB.Driver.Core.Configuration;
 using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using ThirdParty.Json.LitJson;
 
 namespace Negocio
 {
-    internal class Connection
+    public class Connection
     {
-        public void insertData(BsonDocument document) {
-            MongoClient dbClient = new MongoClient("mongodb+srv://EurisAquino:AvjsQVEU2w38B1tY@cluster0.nu42xpp.mongodb.net/");
+        private SqlConnection conexion = new SqlConnection("Server=EURISAQUINO;Database=BusinessAPP;Trusted_Connection=True;");
 
-            var database = dbClient.GetDatabase("Negocio");
-            var collection = database.GetCollection<BsonDocument>("Clientes");
+        public SqlConnection openConexion()
+        {
+            if (conexion.State == ConnectionState.Closed)
+                conexion.Open();
+            return conexion;
+        }
 
-            collection.InsertOne(document);
+        public SqlConnection closeConexion()
+        {
+            if (conexion.State == ConnectionState.Open)
+                conexion.Close();
+            return conexion;
         }
     }
 }

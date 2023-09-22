@@ -50,3 +50,4 @@ C:\Users\euris\source\repos\Negocio\bin\Debug\System.Security.Principal.Windows.
 C:\Users\euris\source\repos\Negocio\bin\Debug\System.Text.Encoding.CodePages.xml
 C:\Users\euris\source\repos\Negocio\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\euris\source\repos\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\euris\source\repos\Negocio\obj\Debug\Negocio.Form1.resources
