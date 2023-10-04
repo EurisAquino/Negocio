@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Negocio.ui.login_screen;
+using Negocio.ui.main_window;
+using System;
 using System.Collections.Generic;
 using System.Drawing.Text;
 using System.Linq;
@@ -16,7 +18,7 @@ namespace Negocio
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new SplashScreen());
             
         }   
     }
