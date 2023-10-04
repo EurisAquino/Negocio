@@ -21,7 +21,8 @@ namespace Negocio
         {
             DBOperations operation = new DBOperations();
 
-            operation.Insert("Beyby Ruth", "Ulloa Peña", "51");
+            operation.Insert("Bethoven", "Javier", "13");
+
 
             this.Close();
         }
