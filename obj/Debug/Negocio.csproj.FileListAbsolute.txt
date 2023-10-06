@@ -94,3 +94,9 @@ C:\Users\Frand\Source\Repos\Negocio\bin\Debug\CircularProgressBar.xml
 C:\Users\Frand\source\repos\Negocio\obj\Debug\Negocio.SplashScreen.resources
 C:\Users\Frand\source\repos\Negocio\obj\Debug\Negocio.ui.main_window.MainWindow.resources
 C:\Users\Frand\source\repos\Negocio\obj\Debug\Negocio.ui.login_screen.LoginScreen.resources
+C:\Users\euris\Source\Repos\Negocio\bin\Debug\CircularProgressBar.dll
+C:\Users\euris\Source\Repos\Negocio\bin\Debug\WinFormAnimation.dll
+C:\Users\euris\Source\Repos\Negocio\bin\Debug\CircularProgressBar.xml
+C:\Users\euris\Source\Repos\Negocio\obj\Debug\Negocio.ui.login_screen.LoginScreen.resources
+C:\Users\euris\Source\Repos\Negocio\obj\Debug\Negocio.ui.main_window.MainWindow.resources
+C:\Users\euris\Source\Repos\Negocio\obj\Debug\Negocio.SplashScreen.resources
