@@ -34,6 +34,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.circularProgressBar1 = new CircularProgressBar.CircularProgressBar();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // splashscreen_timer
@@ -47,7 +48,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("HP Simplified Hans", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Window;
-            this.label1.Location = new System.Drawing.Point(198, 92);
+            this.label1.Location = new System.Drawing.Point(193, 23);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(412, 73);
             this.label1.TabIndex = 0;
@@ -58,7 +59,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("HP Simplified Hans", 24F);
             this.label2.ForeColor = System.Drawing.SystemColors.Window;
-            this.label2.Location = new System.Drawing.Point(209, 60);
+            this.label2.Location = new System.Drawing.Point(204, 96);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(110, 36);
             this.label2.TabIndex = 1;
@@ -69,7 +70,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("HP Simplified Hans", 24F);
             this.label3.ForeColor = System.Drawing.SystemColors.Window;
-            this.label3.Location = new System.Drawing.Point(364, 346);
+            this.label3.Location = new System.Drawing.Point(354, 381);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(84, 36);
             this.label3.TabIndex = 3;
@@ -85,7 +86,7 @@
             this.circularProgressBar1.InnerColor = System.Drawing.Color.White;
             this.circularProgressBar1.InnerMargin = 2;
             this.circularProgressBar1.InnerWidth = -1;
-            this.circularProgressBar1.Location = new System.Drawing.Point(331, 193);
+            this.circularProgressBar1.Location = new System.Drawing.Point(321, 228);
             this.circularProgressBar1.MarqueeAnimationSpeed = 2000;
             this.circularProgressBar1.Name = "circularProgressBar1";
             this.circularProgressBar1.OuterColor = System.Drawing.Color.White;
@@ -132,5 +133,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private CircularProgressBar.CircularProgressBar circularProgressBar1;
+        private System.Windows.Forms.Timer timer1;
     }
 }
