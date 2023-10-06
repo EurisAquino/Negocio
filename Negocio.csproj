@@ -159,8 +159,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Connection.cs" />
-    <Compile Include="DBOperations.cs" />
+    <Compile Include="Database\Connection.cs" />
+    <Compile Include="Database\DBOperations.cs" />
+    <Compile Include="Metodos\Metodos.cs" />
     <Compile Include="ui\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
