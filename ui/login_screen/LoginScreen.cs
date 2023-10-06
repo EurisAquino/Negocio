@@ -18,6 +18,34 @@ namespace Negocio.ui.login_screen
 
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "")
+            {
+                MessageBox.Show("Ingrese su usuario por favor:");
+            }
+            else if (textBox1.Text == "admin")
+            {
+
+            }
+            else
+            {
+                MessageBox.Show("Usuario Incorrecto","Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            if (textBox2.Text  == "")
+            {
+                MessageBox.Show("Ingrese su contraseña por favor:");
+            }
+            else if (textBox2.Text == "admin")
+            {
+                
+            }
+            else
+            {
+                MessageBox.Show("Contraseña Incorrecta", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
     }
 
 }
