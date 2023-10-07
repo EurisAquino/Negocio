@@ -17,15 +17,19 @@ namespace Negocio
         DataTable table = new DataTable();
         SqlCommand command = new SqlCommand();
 
-        public DataTable Show()
+        //Llenar datos desde la tabla Articulos
+        public DataTable MostrarArticulos(DataTable dt)
         {
-            command.Connection = connection.openConexion();
-            command.CommandText = "MostrarClientes";
-            command.CommandType = CommandType.StoredProcedure;
-            read = command.ExecuteReader();
-            table.Load(read);
+            connection.openConexion();
+
+            string sql = "SELECT * FROM Articulos";
+            SqlCommand cmd = new SqlCommand(sql, connection.openConexion());
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            adapter.Fill(dt);
+
             connection.closeConexion();
-            return table;
+
+            return dt;
         }
 
         //Insertar datos en la tabla Clientes
@@ -37,6 +41,25 @@ namespace Negocio
             command.Parameters.AddWithValue("@nombres", nombres);
             command.Parameters.AddWithValue("@apellidos", apellidos);
             command.Parameters.AddWithValue("@edad", edad);
+            command.ExecuteNonQuery();
+            command.Parameters.Clear();
+            connection.closeConexion();
+        }
+
+        public void InsertArticulo(string codigoArticulo, string nombreArticulo, int cantidad, string familia, string unidadMedida, decimal precioCompra, decimal margenBeneficio, decimal precioVenta, DateTime fechaCreacion)
+        {
+            command.Connection = connection.openConexion();
+            command.CommandText = "insertarArticulos";
+            command.CommandType = CommandType.StoredProcedure;
+            command.Parameters.AddWithValue("@codigoArticulo", codigoArticulo);
+            command.Parameters.AddWithValue("@nombreArticulo", nombreArticulo);
+            command.Parameters.AddWithValue("@cantidad", cantidad);
+            command.Parameters.AddWithValue("@familia", familia);
+            command.Parameters.AddWithValue("@unidadMedida", unidadMedida);
+            command.Parameters.AddWithValue("@precioCompra", precioCompra);
+            command.Parameters.AddWithValue("@margenBeneficio", margenBeneficio);
+            command.Parameters.AddWithValue("@precioVenta", precioVenta);
+            command.Parameters.AddWithValue("@fechaCreacion", fechaCreacion);
             command.ExecuteNonQuery();
             command.Parameters.Clear();
             connection.closeConexion();

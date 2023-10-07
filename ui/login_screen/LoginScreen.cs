@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Negocio.ui.main_window;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -27,15 +28,11 @@ namespace Negocio.ui.login_screen
             //Verificacion
             if (val == true)
             {
-                Console.WriteLine("Pasa");
-            }
-            else
-            {
-                Console.WriteLine("No pasa");
+                MainWindow main = new MainWindow();
+                main.Show();
+                this.Close();
             }
         }
-
     }
-
 }
     
