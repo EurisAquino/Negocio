@@ -245,6 +245,12 @@
     <Compile Include="ui\Invetario_screen\AgregarForm.Designer.cs">
       <DependentUpon>AgregarForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ui\Invetario_screen\EditarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\Invetario_screen\EditarForm.Designer.cs">
+      <DependentUpon>EditarForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ui\Invetario_screen\Inventario_Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -273,6 +279,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ui\Invetario_screen\AgregarForm.resx">
       <DependentUpon>AgregarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\Invetario_screen\EditarForm.resx">
+      <DependentUpon>EditarForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ui\Invetario_screen\Inventario_Form.resx">
       <DependentUpon>Inventario_Form.cs</DependentUpon>
@@ -362,6 +371,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\agregar-producto.png" />
+    <None Include="Resources\edit.png" />
     <Content Include="Resources\plus.png" />
     <None Include="Resources\return.png" />
     <None Include="Resources\plus1.png" />

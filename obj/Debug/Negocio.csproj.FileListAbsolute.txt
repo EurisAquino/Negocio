@@ -152,3 +152,4 @@ C:\Users\euris\Source\Repos\Negocio\bin\Debug\ru\Microsoft.Data.SqlClient.resour
 C:\Users\euris\Source\Repos\Negocio\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
 C:\Users\euris\Source\Repos\Negocio\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
 C:\Users\euris\Source\Repos\Negocio\obj\Debug\Negocio.ui.Invetario_screen.AgregarForm.resources
+C:\Users\euris\source\repos\Negocio\obj\Debug\Negocio.ui.Invetario_screen.EditarForm.resources

@@ -34,5 +34,13 @@ namespace Negocio.ui.Invetario_screen
             agregarForm.Show();
             this.Hide();
         }
+
+        private void btnActualizar_Click(object sender, EventArgs e)
+        {
+            //Ocultar y mostrar forms
+            EditarForm editarForm = new EditarForm();
+            editarForm.Show();
+            this.Hide();
+        }
     }
 }
