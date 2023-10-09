@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using System.Net.PeerToPeer.Collaboration;
 
 namespace Negocio
 {
@@ -20,9 +21,10 @@ namespace Negocio
         //Llenar datos desde la tabla Articulos
         public DataTable MostrarArticulos(DataTable dt)
         {
+            
             connection.openConexion();
 
-            string sql = "SELECT * FROM Articulos";
+            string sql = "EXEC MostrarArticulos;";
             SqlCommand cmd = new SqlCommand(sql, connection.openConexion());
             SqlDataAdapter adapter = new SqlDataAdapter(cmd);
             adapter.Fill(dt);
@@ -30,6 +32,7 @@ namespace Negocio
             connection.closeConexion();
 
             return dt;
+            
         }
 
         //Insertar datos en la tabla Clientes
