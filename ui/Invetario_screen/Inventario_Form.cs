@@ -23,24 +23,22 @@ namespace Negocio.ui.Invetario_screen
         private void Inventario_Form_Load(object sender, EventArgs e)
         {
             //Funcion para mostrar los datos de la tabla en el data view
-            op.MostrarArticulos(this.businessAPPDataSet1.Articulos);
+            //op.MostrarArticulos(this.businessAPPDataSet1.Articulos);
 
         }
 
-        private void btnAgregarArticulo_Click(object sender, EventArgs e)
+        private void btnAgregarArticulos_Click(object sender, EventArgs e)
         {
             //Ocultar y mostrar forms
-            AgregarForm agregarForm = new AgregarForm();   
+            AgregarForm agregarForm = new AgregarForm();
             agregarForm.Show();
-            this.Hide();
         }
 
-        private void btnActualizar_Click(object sender, EventArgs e)
+        private void btnActualizar_Click_1(object sender, EventArgs e)
         {
             //Ocultar y mostrar forms
             EditarForm editarForm = new EditarForm();
             editarForm.Show();
-            this.Hide();
         }
     }
 }

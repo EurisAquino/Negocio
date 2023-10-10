@@ -15,23 +15,29 @@ namespace Negocio.ui.Invetario_screen
         public AgregarForm()
         {
             InitializeComponent();
+            Inventario_Form inventario = new Inventario_Form();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             //Ocultar y mostrar Forms
-            Inventario_Form inventario = new Inventario_Form();
-            inventario.Show();
-            this.Hide();
+            this.Close();
         }
 
-        private void btnAgregar_Click(object sender, EventArgs e)
+        private void btnGuardar_Click(object sender, EventArgs e)
         {
             //Variable de DBOperations
             DBOperations op = new DBOperations();
 
             //Insertar articulo a la base de datos
             op.InsertArticulo(txtCodigo.Text.ToUpper(), txtNombre.Text.ToUpper(), ((int)numCantidad.Value), txtFamilia.Text.ToUpper(), txtUnidad.Text.ToUpper(), ((decimal)numPrecioCompra.Value), ((decimal)numMargen.Value), ((decimal)numPrecioVenta.Value), dateFecha.Value);
+
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            //Ocultar y mostrar Forms
+            this.Close();
         }
     }
 }
