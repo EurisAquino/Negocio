@@ -1,4 +1,5 @@
-﻿using Negocio.ui.login_screen;
+﻿using Negocio.ui.Invetario_screen;
+using Negocio.ui.login_screen;
 using Negocio.ui.main_window;
 using System;
 using System.Collections.Generic;
@@ -18,7 +19,7 @@ namespace Negocio
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SplashScreen());
+            Application.Run(new Inventario_Form());
             
         }   
     }

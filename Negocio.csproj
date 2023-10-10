@@ -245,6 +245,12 @@
     <Compile Include="ui\Invetario_screen\AgregarForm.Designer.cs">
       <DependentUpon>AgregarForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ui\Invetario_screen\EditarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\Invetario_screen\EditarForm.Designer.cs">
+      <DependentUpon>EditarForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ui\Invetario_screen\Inventario_Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -273,6 +279,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ui\Invetario_screen\AgregarForm.resx">
       <DependentUpon>AgregarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\Invetario_screen\EditarForm.resx">
+      <DependentUpon>EditarForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ui\Invetario_screen\Inventario_Form.resx">
       <DependentUpon>Inventario_Form.cs</DependentUpon>
@@ -362,6 +371,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\agregar-producto.png" />
+    <None Include="Resources\workers_5626604.png" />
+    <None Include="Resources\team_9825678.png" />
+    <None Include="Resources\truck_2848829.png" />
+    <None Include="Resources\edit.png" />
+    <None Include="Resources\logo.jpg" />
+    <None Include="Resources\logo1.jpg" />
+    <None Include="Resources\inventory.png" />
+    <None Include="Resources\inventory_2835657.png" />
+    <None Include="Resources\boxes_3638928.png" />
+    <None Include="Resources\boxes_3638928 %281%29.png" />
+    <None Include="Resources\engineer_2219616.png" />
     <Content Include="Resources\plus.png" />
     <None Include="Resources\return.png" />
     <None Include="Resources\plus1.png" />

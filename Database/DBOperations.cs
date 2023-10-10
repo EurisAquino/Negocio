@@ -14,8 +14,6 @@ namespace Negocio
     {
         private Connection connection = new Connection();
 
-        SqlDataReader read;
-        DataTable table = new DataTable();
         SqlCommand command = new SqlCommand();
 
         //Llenar datos desde la tabla Articulos
@@ -33,6 +31,22 @@ namespace Negocio
 
             return dt;
             
+        }
+
+        public DataTable BuscarArticulos(DataTable dt, string codigoArticulo)
+        {
+
+            connection.openConexion();
+
+            string sql = "EXEC BuscarArticulo @articulo =  '"+ codigoArticulo +"';";
+            SqlCommand cmd = new SqlCommand(sql, connection.openConexion());
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            adapter.Fill(dt);
+
+            connection.closeConexion();
+
+            return dt;
+
         }
 
         //Insertar datos en la tabla Clientes

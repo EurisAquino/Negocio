@@ -118,26 +118,17 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="5995353[1]" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\5995353[1].jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="inventory_2825867 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\inventory_2825867 (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="undraw_coffee_break_h3uu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\undraw_coffee_break_h3uu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cancel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\plus1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="close" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="undraw_Pic_profile_re_7g2h" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\undraw_Pic_profile_re_7g2h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="workers_5626604" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\workers_5626604.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="undraw_coffee_break_h3uu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\undraw_coffee_break_h3uu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="padlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\padlock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,13 +136,55 @@
   <data name="agregar-producto" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\agregar-producto1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="undraw_coffee_break_h3uu1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\undraw_coffee_break_h3uu1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="return" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\return.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="truck_2848829" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\truck_2848829.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="return" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\return.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="5995353[1]" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5995353[1].jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boxes_3638928" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boxes_3638928.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="undraw_coffee_break_h3uu1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\undraw_coffee_break_h3uu1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inventory_2825867 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inventory_2825867 (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boxes_3638928 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boxes_3638928 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inventory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inventory.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="team_9825678" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\team_9825678.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cancel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plus1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inventory_2835657" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inventory_2835657.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="undraw_Pic_profile_re_7g2h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\undraw_Pic_profile_re_7g2h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="engineer_2219616" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\engineer_2219616.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
