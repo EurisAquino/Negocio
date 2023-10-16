@@ -206,3 +206,9 @@ C:\Users\Frand\Source\Repos\Negocio\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.r
 C:\Users\Frand\Source\Repos\Negocio\obj\Debug\Negocio.ui.Invetario_screen.AgregarForm.resources
 C:\Users\Frand\Source\Repos\Negocio\obj\Debug\Negocio.ui.Invetario_screen.EditarForm.resources
 C:\Users\Frand\Source\Repos\Negocio\obj\Debug\Negocio.ui.Invetario_screen.Inventario_Form.resources
+C:\Users\Frand\source\repos\Negocio\obj\Debug\Negocio.ui.Invetario_screen.InsertarForm.resources
+C:\Users\Frand\source\repos\Negocio\obj\Debug\Negocio.ui.Invetario_screen.DesactivarForm.resources
+C:\Users\Frand\source\repos\Negocio\obj\Debug\Negocio.ui.main_window.usuarios_screen.usuarioForm.resources
+C:\Users\Frand\source\repos\Negocio\obj\Debug\Negocio.ui.main_window.usuarios_screen.agregarUsuario.resources
+C:\Users\Frand\source\repos\Negocio\obj\Debug\Negocio.ui.main_window.usuarios_screen.modificarUsuario.resources
+C:\Users\Frand\source\repos\Negocio\obj\Debug\Negocio.ui.main_window.usuarios_screen.EliminarUsuario.resources

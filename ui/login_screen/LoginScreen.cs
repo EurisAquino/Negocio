@@ -29,7 +29,7 @@ namespace Negocio.ui.login_screen
             if (val == true)
             {
                 MainWindow main = new MainWindow();
-                main.Show();
+                main.ShowDialog();
                 this.Close();
             }
         }

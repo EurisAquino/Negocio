@@ -57,13 +57,13 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("HP Simplified Hans", 20F);
+            this.label2.Font = new System.Drawing.Font("HP Simplified Hans", 18F);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(138)))), ((int)(((byte)(71)))));
-            this.label2.Location = new System.Drawing.Point(120, 138);
+            this.label2.Location = new System.Drawing.Point(224, 138);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(531, 31);
+            this.label2.Size = new System.Drawing.Size(339, 27);
             this.label2.TabIndex = 1;
-            this.label2.Text = "¡Chirrok Tu destino para las mejores ofertas!";
+            this.label2.Text = "¡Tu aliado en materiales ligeros!";
             // 
             // pictureBox1
             // 

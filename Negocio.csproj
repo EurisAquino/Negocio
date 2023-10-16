@@ -239,22 +239,34 @@
     <Compile Include="Database\Connection.cs" />
     <Compile Include="Database\DBOperations.cs" />
     <Compile Include="Metodos\Metodos.cs" />
-    <Compile Include="ui\Invetario_screen\AgregarForm.cs">
+    <Compile Include="ui\main_window\Invetario_screen\AgregarForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ui\Invetario_screen\AgregarForm.Designer.cs">
+    <Compile Include="ui\main_window\Invetario_screen\AgregarForm.Designer.cs">
       <DependentUpon>AgregarForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ui\Invetario_screen\EditarForm.cs">
+    <Compile Include="ui\main_window\Invetario_screen\DesactivarForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ui\Invetario_screen\EditarForm.Designer.cs">
+    <Compile Include="ui\main_window\Invetario_screen\DesactivarForm.Designer.cs">
+      <DependentUpon>DesactivarForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\main_window\Invetario_screen\EditarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\main_window\Invetario_screen\EditarForm.Designer.cs">
       <DependentUpon>EditarForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ui\Invetario_screen\Inventario_Form.cs">
+    <Compile Include="ui\main_window\Invetario_screen\InsertarForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ui\Invetario_screen\Inventario_Form.Designer.cs">
+    <Compile Include="ui\main_window\Invetario_screen\InsertarForm.Designer.cs">
+      <DependentUpon>InsertarForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\main_window\Invetario_screen\Inventario_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\main_window\Invetario_screen\Inventario_Form.Designer.cs">
       <DependentUpon>Inventario_Form.cs</DependentUpon>
     </Compile>
     <Compile Include="ui\login_screen\LoginScreen.cs">
@@ -269,6 +281,24 @@
     <Compile Include="ui\main_window\MainWindow.Designer.cs">
       <DependentUpon>MainWindow.cs</DependentUpon>
     </Compile>
+    <Compile Include="ui\main_window\usuarios_screen\agregarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\main_window\usuarios_screen\agregarUsuario.Designer.cs">
+      <DependentUpon>agregarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\main_window\usuarios_screen\modificarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\main_window\usuarios_screen\modificarUsuario.Designer.cs">
+      <DependentUpon>modificarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\main_window\usuarios_screen\usuarioForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\main_window\usuarios_screen\usuarioForm.Designer.cs">
+      <DependentUpon>usuarioForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ui\splash_screen\SplashScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -277,13 +307,19 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="ui\Invetario_screen\AgregarForm.resx">
+    <EmbeddedResource Include="ui\main_window\Invetario_screen\AgregarForm.resx">
       <DependentUpon>AgregarForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ui\Invetario_screen\EditarForm.resx">
+    <EmbeddedResource Include="ui\main_window\Invetario_screen\DesactivarForm.resx">
+      <DependentUpon>DesactivarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\main_window\Invetario_screen\EditarForm.resx">
       <DependentUpon>EditarForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ui\Invetario_screen\Inventario_Form.resx">
+    <EmbeddedResource Include="ui\main_window\Invetario_screen\InsertarForm.resx">
+      <DependentUpon>InsertarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\main_window\Invetario_screen\Inventario_Form.resx">
       <DependentUpon>Inventario_Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ui\login_screen\LoginScreen.resx">
@@ -291,6 +327,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ui\main_window\MainWindow.resx">
       <DependentUpon>MainWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\main_window\usuarios_screen\agregarUsuario.resx">
+      <DependentUpon>agregarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\main_window\usuarios_screen\modificarUsuario.resx">
+      <DependentUpon>modificarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\main_window\usuarios_screen\usuarioForm.resx">
+      <DependentUpon>usuarioForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ui\splash_screen\SplashScreen.resx">
       <DependentUpon>SplashScreen.cs</DependentUpon>
@@ -371,6 +416,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\agregar-producto.png" />
+    <None Include="Resources\sugar-free_1428956.png" />
     <None Include="Resources\workers_5626604.png" />
     <None Include="Resources\team_9825678.png" />
     <None Include="Resources\truck_2848829.png" />
@@ -382,6 +428,7 @@
     <None Include="Resources\boxes_3638928.png" />
     <None Include="Resources\boxes_3638928 %281%29.png" />
     <None Include="Resources\engineer_2219616.png" />
+    <None Include="Resources\cart_891407.png" />
     <Content Include="Resources\plus.png" />
     <None Include="Resources\return.png" />
     <None Include="Resources\plus1.png" />

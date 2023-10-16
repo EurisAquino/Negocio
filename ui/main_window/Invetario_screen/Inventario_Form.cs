@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Negocio.ui.main_window;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -39,6 +40,27 @@ namespace Negocio.ui.Invetario_screen
             //Ocultar y mostrar forms
             EditarForm editarForm = new EditarForm();
             editarForm.Show();
+        }
+
+        private void btnInsertarMercancia_Click(object sender, EventArgs e)
+        {
+            //Ocultar y mostrar forms
+            InsertarForm insertarForm = new InsertarForm();
+            insertarForm.Show();
+        }
+
+        private void btnDesactivar_Click(object sender, EventArgs e)
+        {
+            //Ocultar y mostrar forms
+            DesactivarForm desactivarForm = new DesactivarForm();
+            desactivarForm.Show();
+        }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            MainWindow mainWindow = new MainWindow();
+            mainWindow.Show();
+            this.Close();
         }
     }
 }

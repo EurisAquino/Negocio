@@ -46,5 +46,6 @@ namespace Negocio.ui.Invetario_screen
         {
             this.Close();   
         }
+
     }
 }
