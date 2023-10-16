@@ -19,7 +19,7 @@ namespace Negocio
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Inventario_Form());
+            Application.Run(new MainWindow());
             
         }   
     }

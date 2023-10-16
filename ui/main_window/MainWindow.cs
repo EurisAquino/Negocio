@@ -1,4 +1,5 @@
 ﻿using Negocio.ui.Invetario_screen;
+using Negocio.ui.main_window.usuarios_screen;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -21,9 +22,16 @@ namespace Negocio.ui.main_window
 
         private void btnInventario_Click(object sender, EventArgs e)
         {
+
             Inventario_Form inventario = new Inventario_Form();
             inventario.Show();
             this.Hide();
+        }
+
+        private void btnUsuarios_Click(object sender, EventArgs e)
+        {
+            usuarioForm usuarioForm = new usuarioForm();
+            usuarioForm.ShowDialog();
         }
     }
 }

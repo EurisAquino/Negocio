@@ -39,5 +39,6 @@ namespace Negocio.ui.Invetario_screen
             //Ocultar y mostrar Forms
             this.Close();
         }
+
     }
 }
