@@ -62,5 +62,23 @@ namespace Negocio.ui.Invetario_screen
             mainWindow.Show();
             this.Close();
         }
+
+        private void Inventario_Form_FormClosing(object sender, FormClosingEventArgs e)
+        {
+
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                // Cierra todos los formularios abiertos
+                foreach (Form form in Application.OpenForms)
+                {
+                    if (form != this) // Evita cerrar el formulario actual (Form2)
+                    {
+                        form.Close();
+                    }
+                }
+
+                Application.Exit(); // Cierra la aplicación
+            }
+        }
     }
 }
