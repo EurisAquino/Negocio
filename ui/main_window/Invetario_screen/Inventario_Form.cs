@@ -24,7 +24,7 @@ namespace Negocio.ui.Invetario_screen
         private void Inventario_Form_Load(object sender, EventArgs e)
         {
             //Funcion para mostrar los datos de la tabla en el data view
-            //op.MostrarArticulos(this.businessAPPDataSet1.Articulos);
+            op.MostrarArticulos(this.businessAPPDataSet1.Articulos);
 
         }
 
@@ -60,25 +60,12 @@ namespace Negocio.ui.Invetario_screen
         {
             MainWindow mainWindow = new MainWindow();
             mainWindow.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void Inventario_Form_FormClosing(object sender, FormClosingEventArgs e)
         {
-
-            if (e.CloseReason == CloseReason.UserClosing)
-            {
-                // Cierra todos los formularios abiertos
-                foreach (Form form in Application.OpenForms)
-                {
-                    if (form != this) // Evita cerrar el formulario actual (Form2)
-                    {
-                        form.Close();
-                    }
-                }
-
-                Application.Exit(); // Cierra la aplicación
-            }
+            Application.Exit(); // Cierra la aplicación
         }
     }
 }

@@ -211,3 +211,8 @@ C:\Users\Frand\source\repos\Negocio\obj\Debug\Negocio.ui.Invetario_screen.Desact
 C:\Users\Frand\source\repos\Negocio\obj\Debug\Negocio.ui.main_window.usuarios_screen.usuarioForm.resources
 C:\Users\Frand\source\repos\Negocio\obj\Debug\Negocio.ui.main_window.usuarios_screen.agregarUsuario.resources
 C:\Users\Frand\source\repos\Negocio\obj\Debug\Negocio.ui.main_window.usuarios_screen.modificarUsuario.resources
+C:\Users\euris\Source\Repos\Negocio\obj\Debug\Negocio.ui.Invetario_screen.DesactivarForm.resources
+C:\Users\euris\Source\Repos\Negocio\obj\Debug\Negocio.ui.Invetario_screen.InsertarForm.resources
+C:\Users\euris\Source\Repos\Negocio\obj\Debug\Negocio.ui.main_window.usuarios_screen.agregarUsuario.resources
+C:\Users\euris\Source\Repos\Negocio\obj\Debug\Negocio.ui.main_window.usuarios_screen.modificarUsuario.resources
+C:\Users\euris\Source\Repos\Negocio\obj\Debug\Negocio.ui.main_window.usuarios_screen.usuarioForm.resources

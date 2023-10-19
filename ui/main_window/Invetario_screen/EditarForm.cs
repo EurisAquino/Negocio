@@ -38,6 +38,12 @@ namespace Negocio.ui.Invetario_screen
                 txtCodArticulo.Text = this.businessAPPDataSet1.Articulos.Rows[i]["codigoArticulo"].ToString();
                 txtNombreArticulo.Text = this.businessAPPDataSet1.Articulos.Rows[i]["nombreArticulo"].ToString();
                 txtCantidad.Text = this.businessAPPDataSet1.Articulos.Rows[i]["cantidad"].ToString();
+                txtFamilia.Text = this.businessAPPDataSet1.Articulos.Rows[i]["familia"].ToString();
+                txtUnidadMedida.Text = this.businessAPPDataSet1.Articulos.Rows[i]["unidadMedida"].ToString();
+                txtPrecioCompra.Text = this.businessAPPDataSet1.Articulos.Rows[i]["precioCompra"].ToString();
+                txtMargenBenificio.Text = this.businessAPPDataSet1.Articulos.Rows[i]["margenBeneficio"].ToString();
+                txtPrecioVenta.Text = this.businessAPPDataSet1.Articulos.Rows[i]["precioVenta"].ToString();
+                txtFechaCreacion.Text = this.businessAPPDataSet1.Articulos.Rows[i]["fechaCreacion"].ToString();
             }
             
         }
@@ -45,6 +51,21 @@ namespace Negocio.ui.Invetario_screen
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            DBOperations op = new DBOperations();
+            op.EditarArticulos(txtCodArticulo.Text, txtNombreArticulo.Text, Convert.ToInt16(txtCantidad.Text), txtFamilia.Text, txtUnidadMedida.Text, Convert.ToDecimal(txtPrecioCompra.Text), Convert.ToDecimal(txtMargenBenificio.Text), Convert.ToDecimal(txtPrecioVenta.Text), Convert.ToDateTime(txtFechaCreacion.Text));
+            txtCodArticulo.Text = "";
+            txtNombreArticulo.Text = "";
+            txtCantidad.Text = "";
+            txtFamilia.Text = "";
+            txtUnidadMedida.Text = "";
+            txtPrecioCompra.Text = "";
+            txtMargenBenificio.Text = "";
+            txtPrecioVenta.Text = "";
+            txtFechaCreacion.Text = "";
         }
     }
 }
