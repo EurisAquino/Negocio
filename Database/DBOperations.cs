@@ -7,6 +7,8 @@ using System.Text;
 using System.Threading.Tasks;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using System.Net.PeerToPeer.Collaboration;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.TaskbarClock;
+using System.Text.RegularExpressions;
 
 namespace Negocio
 {
@@ -46,6 +48,37 @@ namespace Negocio
             connection.closeConexion();
 
             return dt;
+
+        }
+
+        public void  EditarArticulos(string codigoArticulo, string nombreArticulo, int cantidad, string familia, string unidadMedida, decimal precioCompra, decimal margenBeneficio, decimal precioVenta, DateTime fechaCreacion)
+        {
+
+            connection.openConexion();
+
+            string date = fechaCreacion.ToString();
+            date = date.Replace("a.", "A");
+            date = date.Replace("m.", "M");
+            date = date.Replace("p.", "P");
+
+            date = Regex.Replace(date, @"\sA\sM", " AM");
+            date = Regex.Replace(date, @"\sP\sM", " PM");
+
+            command.Connection = connection.openConexion();
+            command.CommandText = "EditarArticulos";
+            command.CommandType = CommandType.StoredProcedure;
+            command.Parameters.AddWithValue("@codigoArticulo", codigoArticulo);
+            command.Parameters.AddWithValue("@nombreArticulo", nombreArticulo);
+            command.Parameters.AddWithValue("@cantidad", cantidad);
+            command.Parameters.AddWithValue("@familia", familia);
+            command.Parameters.AddWithValue("@unidadMedida", unidadMedida);
+            command.Parameters.AddWithValue("@precioCompra", precioCompra);
+            command.Parameters.AddWithValue("@margenBeneficio", margenBeneficio);
+            command.Parameters.AddWithValue("@precioVenta", precioVenta);
+            command.Parameters.AddWithValue("@fechaCreacion", Convert.ToDateTime(date));
+            command.ExecuteNonQuery();
+            command.Parameters.Clear();
+            connection.closeConexion();
 
         }
 
