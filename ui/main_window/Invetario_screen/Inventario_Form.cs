@@ -23,7 +23,7 @@ namespace Negocio.ui.Invetario_screen
 
         private void Inventario_Form_Load(object sender, EventArgs e)
         {
-            //Funcion para mostrar los datos de la tabla en el data view
+            //Funcion para mostrar los datzos de la tabla en el data view
             // op.MostrarArticulos(this.businessAPPDataSet1.Articulos);
 
         }
@@ -58,14 +58,7 @@ namespace Negocio.ui.Invetario_screen
 
         private void btnRegresar_Click(object sender, EventArgs e)
         {
-            MainWindow mainWindow = new MainWindow();
-            mainWindow.Show();
-            this.Hide();
-        }
-
-        private void Inventario_Form_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            Application.Exit(); // Cierra la aplicación
+            this.Close();
         }
     }
 }

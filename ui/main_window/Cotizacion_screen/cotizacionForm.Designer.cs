@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.insertarMercancia = new System.Windows.Forms.Label();
             this.dataGridCotizacion = new System.Windows.Forms.DataGridView();
             this.nombreCotizacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -82,15 +82,16 @@
             // 
             this.dataGridCotizacion.AllowUserToAddRows = false;
             this.dataGridCotizacion.AllowUserToDeleteRows = false;
+            this.dataGridCotizacion.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dataGridCotizacion.BackgroundColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridCotizacion.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridCotizacion.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
             this.dataGridCotizacion.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridCotizacion.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.nombreCotizacion,
@@ -106,14 +107,14 @@
             this.dataGridCotizacion.Location = new System.Drawing.Point(133, 70);
             this.dataGridCotizacion.Name = "dataGridCotizacion";
             this.dataGridCotizacion.ReadOnly = true;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridCotizacion.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridCotizacion.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.dataGridCotizacion.Size = new System.Drawing.Size(1219, 377);
             this.dataGridCotizacion.TabIndex = 36;
             // 
@@ -182,6 +183,7 @@
             // 
             // txtNombre
             // 
+            this.txtNombre.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.txtNombre.Location = new System.Drawing.Point(565, 477);
             this.txtNombre.Margin = new System.Windows.Forms.Padding(2);
@@ -191,6 +193,7 @@
             // 
             // txtcedularnc
             // 
+            this.txtcedularnc.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtcedularnc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.txtcedularnc.Location = new System.Drawing.Point(565, 527);
             this.txtcedularnc.Margin = new System.Windows.Forms.Padding(2);
@@ -200,6 +203,7 @@
             // 
             // txtCotizacion
             // 
+            this.txtCotizacion.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtCotizacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.txtCotizacion.Location = new System.Drawing.Point(565, 577);
             this.txtCotizacion.Margin = new System.Windows.Forms.Padding(2);
@@ -209,6 +213,7 @@
             // 
             // txtCantidad
             // 
+            this.txtCantidad.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtCantidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.txtCantidad.Location = new System.Drawing.Point(565, 677);
             this.txtCantidad.Margin = new System.Windows.Forms.Padding(2);
@@ -218,6 +223,7 @@
             // 
             // txtArticulo
             // 
+            this.txtArticulo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtArticulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.txtArticulo.Location = new System.Drawing.Point(565, 627);
             this.txtArticulo.Margin = new System.Windows.Forms.Padding(2);
@@ -227,6 +233,7 @@
             // 
             // txtfechaCotizacion
             // 
+            this.txtfechaCotizacion.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtfechaCotizacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.txtfechaCotizacion.Location = new System.Drawing.Point(939, 627);
             this.txtfechaCotizacion.Margin = new System.Windows.Forms.Padding(2);
@@ -236,6 +243,7 @@
             // 
             // txtITBIS
             // 
+            this.txtITBIS.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtITBIS.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.txtITBIS.Location = new System.Drawing.Point(939, 577);
             this.txtITBIS.Margin = new System.Windows.Forms.Padding(2);
@@ -245,6 +253,7 @@
             // 
             // txtDescuento
             // 
+            this.txtDescuento.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtDescuento.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.txtDescuento.Location = new System.Drawing.Point(939, 527);
             this.txtDescuento.Margin = new System.Windows.Forms.Padding(2);
@@ -254,6 +263,7 @@
             // 
             // txtprecioVenta
             // 
+            this.txtprecioVenta.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtprecioVenta.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.txtprecioVenta.Location = new System.Drawing.Point(939, 477);
             this.txtprecioVenta.Margin = new System.Windows.Forms.Padding(2);
@@ -263,6 +273,7 @@
             // 
             // lbNombre
             // 
+            this.lbNombre.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbNombre.AutoSize = true;
             this.lbNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.lbNombre.ForeColor = System.Drawing.Color.White;
@@ -274,6 +285,7 @@
             // 
             // lbcedularnc
             // 
+            this.lbcedularnc.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbcedularnc.AutoSize = true;
             this.lbcedularnc.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.lbcedularnc.ForeColor = System.Drawing.Color.White;
@@ -285,6 +297,7 @@
             // 
             // lbArticulo
             // 
+            this.lbArticulo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbArticulo.AutoSize = true;
             this.lbArticulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.lbArticulo.ForeColor = System.Drawing.Color.White;
@@ -296,6 +309,7 @@
             // 
             // lbcotizacion
             // 
+            this.lbcotizacion.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbcotizacion.AutoSize = true;
             this.lbcotizacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.lbcotizacion.ForeColor = System.Drawing.Color.White;
@@ -307,6 +321,7 @@
             // 
             // lbCantidad
             // 
+            this.lbCantidad.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbCantidad.AutoSize = true;
             this.lbCantidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.lbCantidad.ForeColor = System.Drawing.Color.White;
@@ -318,6 +333,7 @@
             // 
             // lbfechaCotizacion
             // 
+            this.lbfechaCotizacion.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbfechaCotizacion.AutoSize = true;
             this.lbfechaCotizacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.lbfechaCotizacion.ForeColor = System.Drawing.Color.White;
@@ -329,6 +345,7 @@
             // 
             // lbITBIS
             // 
+            this.lbITBIS.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbITBIS.AutoSize = true;
             this.lbITBIS.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.lbITBIS.ForeColor = System.Drawing.Color.White;
@@ -340,6 +357,7 @@
             // 
             // lbDescuento
             // 
+            this.lbDescuento.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbDescuento.AutoSize = true;
             this.lbDescuento.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.lbDescuento.ForeColor = System.Drawing.Color.White;
@@ -351,6 +369,7 @@
             // 
             // lbbprecioVenta
             // 
+            this.lbbprecioVenta.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbbprecioVenta.AutoSize = true;
             this.lbbprecioVenta.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.lbbprecioVenta.ForeColor = System.Drawing.Color.White;
@@ -362,6 +381,7 @@
             // 
             // btnLimpiar
             // 
+            this.btnLimpiar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnLimpiar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(57)))), ((int)(((byte)(57)))));
             this.btnLimpiar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
             this.btnLimpiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -376,6 +396,7 @@
             // 
             // btnCrear
             // 
+            this.btnCrear.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnCrear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(171)))), ((int)(((byte)(55)))));
             this.btnCrear.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
             this.btnCrear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -390,6 +411,7 @@
             // 
             // btnRegresar
             // 
+            this.btnRegresar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnRegresar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(138)))), ((int)(((byte)(71)))));
             this.btnRegresar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
             this.btnRegresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -401,9 +423,11 @@
             this.btnRegresar.TabIndex = 62;
             this.btnRegresar.Text = "Regresar";
             this.btnRegresar.UseVisualStyleBackColor = false;
+            this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
             // 
             // btnActualizar
             // 
+            this.btnActualizar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnActualizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnActualizar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
             this.btnActualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -447,7 +471,9 @@
             this.Controls.Add(this.dataGridCotizacion);
             this.Controls.Add(this.insertarMercancia);
             this.Name = "cotizacionForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "cotizacionForm";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.dataGridCotizacion)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

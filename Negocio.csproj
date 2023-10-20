@@ -425,6 +425,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\agregar-producto.png" />
+    <None Include="Resources\price-list.png" />
     <None Include="Resources\sugar-free_1428956.png" />
     <None Include="Resources\workers_5626604.png" />
     <None Include="Resources\team_9825678.png" />
