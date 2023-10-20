@@ -233,6 +233,16 @@ namespace Negocio.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap price_list {
+            get {
+                object obj = ResourceManager.GetObject("price-list", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap sugar_free_1428956 {
             get {
                 object obj = ResourceManager.GetObject("sugar-free_1428956", resourceCulture);

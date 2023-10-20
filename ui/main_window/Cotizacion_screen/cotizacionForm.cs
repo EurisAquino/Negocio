@@ -16,5 +16,10 @@ namespace Negocio.ui.main_window.Cotizacion_screen
         {
             InitializeComponent();
         }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

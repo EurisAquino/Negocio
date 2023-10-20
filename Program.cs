@@ -1,6 +1,7 @@
 ﻿using Negocio.ui.Invetario_screen;
 using Negocio.ui.login_screen;
 using Negocio.ui.main_window;
+using Negocio.ui.main_window.Cotizacion_screen;
 using System;
 using System.Collections.Generic;
 using System.Drawing.Text;
