@@ -60,5 +60,11 @@ namespace Negocio.ui.Invetario_screen
         {
             this.Close();
         }
+
+        private void btnRefrescar_Click(object sender, EventArgs e)
+        {
+            this.businessAPPDataSet1.Articulos.Clear();
+            op.MostrarArticulos(this.businessAPPDataSet1.Articulos);
+        }
     }
 }

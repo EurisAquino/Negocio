@@ -28,10 +28,23 @@ namespace Negocio.ui.Invetario_screen
         {
             //Variable de DBOperations
             DBOperations op = new DBOperations();
-
-            //Insertar articulo a la base de datos
-            op.InsertArticulo(txtCodigo.Text.ToUpper(), txtNombre.Text.ToUpper(), ((int)numCantidad.Value), txtFamilia.Text.ToUpper(), txtUnidad.Text.ToUpper(), ((decimal)numPrecioCompra.Value), ((decimal)numMargen.Value), ((decimal)numPrecioVenta.Value), dateFecha.Value);
-
+            if (txtCodigo.Text == "" || txtNombre.Text == "" || numCantidad.Value == 0 || txtFamilia.Text == "" || txtUnidad.Text == "" || numPrecioCompra.Value == 0 || numMargen.Value == 0 || numPrecioVenta.Value == 0)
+            {
+                MessageBox.Show("Debe rellenar todos los campos para registrar un Articulo", "Mensaje de validacion");
+            }
+            else { 
+                //Insertar articulo a la base de datos
+                op.InsertArticulo(txtCodigo.Text.ToUpper(), txtNombre.Text.ToUpper(), ((int)numCantidad.Value), txtFamilia.Text.ToUpper(), txtUnidad.Text.ToUpper(), ((decimal)numPrecioCompra.Value), ((decimal)numMargen.Value), ((decimal)numPrecioVenta.Value), dateFecha.Value);
+                txtCodigo.Text = "";
+                txtNombre.Text = "";
+                numCantidad.Value = 0;
+                txtFamilia.Text = "";
+                txtUnidad.Text = "";
+                numPrecioCompra.Value = 0;
+                numMargen.Value = 0;
+                numPrecioVenta.Value = 0;
+                dateFecha.Value = DateTime.Now;
+            }
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)

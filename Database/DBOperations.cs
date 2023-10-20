@@ -9,6 +9,7 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using System.Net.PeerToPeer.Collaboration;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.TaskbarClock;
 using System.Text.RegularExpressions;
+using System.Windows.Controls;
 
 namespace Negocio
 {
@@ -49,6 +50,25 @@ namespace Negocio
 
             return dt;
 
+        }
+
+        public List<string> MostrarArts(List<string> list)
+        {
+            SqlCommand cmd = new SqlCommand("SELECT nombreArticulo FROM Articulos", connection.openConexion());
+
+            connection.openConexion();
+
+            SqlDataReader dr = cmd.ExecuteReader();
+            if (dr.HasRows)
+            {
+                while(dr.Read())
+                {
+                    list.Add(dr.GetString(0));
+                }
+            }
+            connection.closeConexion();
+
+            return list;
         }
 
         public void  EditarArticulos(string codigoArticulo, string nombreArticulo, int cantidad, string familia, string unidadMedida, decimal precioCompra, decimal margenBeneficio, decimal precioVenta, DateTime fechaCreacion)
@@ -137,6 +157,44 @@ namespace Negocio
             command.ExecuteNonQuery();
             command.Parameters.Clear();
             connection.closeConexion();
+        }
+
+        //Insertar cotizaciones
+        public void InsertCotizaciones(string nombre, string cedularnc, string articulo, decimal cantidad, decimal precioVenta, decimal descuento, decimal itbis, DateTime fechaCotizacion, string @codigoCotizacion)
+        {
+            command.Connection = connection.openConexion();
+            command.CommandText = "InsertarCotizaciones";
+            command.CommandType = CommandType.StoredProcedure;
+
+            command.Parameters.AddWithValue("@nombre", nombre);
+            command.Parameters.AddWithValue("@cedularnc", cedularnc);
+            command.Parameters.AddWithValue("@articulo", articulo);
+            command.Parameters.AddWithValue("@cantidad", cantidad);
+            command.Parameters.AddWithValue("@precioVenta", precioVenta);
+            command.Parameters.AddWithValue("@descuento", descuento);
+            command.Parameters.AddWithValue("@itbis", itbis);
+            command.Parameters.AddWithValue("@fechaCotizacion", fechaCotizacion);
+            command.Parameters.AddWithValue("@codigoCotizacion", codigoCotizacion);
+
+            command.ExecuteNonQuery();
+            command.Parameters.Clear();
+            connection.closeConexion();
+        }
+
+        public DataTable MostrarCotizaciones(DataTable dt)
+        {
+
+            connection.openConexion();
+
+            string sql = "EXEC MostrarCotizaciones;";
+            SqlCommand cmd = new SqlCommand(sql, connection.openConexion());
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            adapter.Fill(dt);
+
+            connection.closeConexion();
+
+            return dt;
+
         }
     }
 }
