@@ -236,6 +236,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BusinessAPPDataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="BusinessAPPDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BusinessAPPDataSet2.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Database\Connection.cs" />
     <Compile Include="Database\DBOperations.cs" />
     <Compile Include="Metodos\Metodos.cs" />
@@ -380,6 +385,17 @@
     </None>
     <None Include="BusinessAPPDataSet1.xss">
       <DependentUpon>BusinessAPPDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="BusinessAPPDataSet2.xsc">
+      <DependentUpon>BusinessAPPDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="BusinessAPPDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BusinessAPPDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BusinessAPPDataSet2.xss">
+      <DependentUpon>BusinessAPPDataSet2.xsd</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\app.manifest" />

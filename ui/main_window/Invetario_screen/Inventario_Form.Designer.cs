@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.codigoArticuloDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nombreArticuloDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -56,6 +56,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnRegresar = new System.Windows.Forms.Button();
+            this.btnRefrescar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.articulosBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.businessAPPDataSet1BindingSource)).BeginInit();
@@ -77,14 +78,14 @@
             this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.codigoArticuloDataGridViewTextBoxColumn,
@@ -97,21 +98,21 @@
             this.precioVentaDataGridViewTextBoxColumn,
             this.fechaCreacionDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.articulosBindingSource1;
-            this.dataGridView1.Location = new System.Drawing.Point(136, 84);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView1.Location = new System.Drawing.Point(181, 103);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1077, 292);
+            this.dataGridView1.Size = new System.Drawing.Size(1436, 359);
             this.dataGridView1.TabIndex = 0;
             // 
             // codigoArticuloDataGridViewTextBoxColumn
@@ -121,7 +122,7 @@
             this.codigoArticuloDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.codigoArticuloDataGridViewTextBoxColumn.Name = "codigoArticuloDataGridViewTextBoxColumn";
             this.codigoArticuloDataGridViewTextBoxColumn.ReadOnly = true;
-            this.codigoArticuloDataGridViewTextBoxColumn.Width = 122;
+            this.codigoArticuloDataGridViewTextBoxColumn.Width = 144;
             // 
             // nombreArticuloDataGridViewTextBoxColumn
             // 
@@ -130,7 +131,7 @@
             this.nombreArticuloDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.nombreArticuloDataGridViewTextBoxColumn.Name = "nombreArticuloDataGridViewTextBoxColumn";
             this.nombreArticuloDataGridViewTextBoxColumn.ReadOnly = true;
-            this.nombreArticuloDataGridViewTextBoxColumn.Width = 128;
+            this.nombreArticuloDataGridViewTextBoxColumn.Width = 151;
             // 
             // cantidadDataGridViewTextBoxColumn
             // 
@@ -139,7 +140,7 @@
             this.cantidadDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.cantidadDataGridViewTextBoxColumn.Name = "cantidadDataGridViewTextBoxColumn";
             this.cantidadDataGridViewTextBoxColumn.ReadOnly = true;
-            this.cantidadDataGridViewTextBoxColumn.Width = 87;
+            this.cantidadDataGridViewTextBoxColumn.Width = 101;
             // 
             // familiaDataGridViewTextBoxColumn
             // 
@@ -148,7 +149,7 @@
             this.familiaDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.familiaDataGridViewTextBoxColumn.Name = "familiaDataGridViewTextBoxColumn";
             this.familiaDataGridViewTextBoxColumn.ReadOnly = true;
-            this.familiaDataGridViewTextBoxColumn.Width = 73;
+            this.familiaDataGridViewTextBoxColumn.Width = 87;
             // 
             // unidadMedidaDataGridViewTextBoxColumn
             // 
@@ -157,7 +158,7 @@
             this.unidadMedidaDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.unidadMedidaDataGridViewTextBoxColumn.Name = "unidadMedidaDataGridViewTextBoxColumn";
             this.unidadMedidaDataGridViewTextBoxColumn.ReadOnly = true;
-            this.unidadMedidaDataGridViewTextBoxColumn.Width = 122;
+            this.unidadMedidaDataGridViewTextBoxColumn.Width = 141;
             // 
             // precioCompraDataGridViewTextBoxColumn
             // 
@@ -166,7 +167,7 @@
             this.precioCompraDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.precioCompraDataGridViewTextBoxColumn.Name = "precioCompraDataGridViewTextBoxColumn";
             this.precioCompraDataGridViewTextBoxColumn.ReadOnly = true;
-            this.precioCompraDataGridViewTextBoxColumn.Width = 121;
+            this.precioCompraDataGridViewTextBoxColumn.Width = 143;
             // 
             // margenBeneficioDataGridViewTextBoxColumn
             // 
@@ -175,7 +176,7 @@
             this.margenBeneficioDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.margenBeneficioDataGridViewTextBoxColumn.Name = "margenBeneficioDataGridViewTextBoxColumn";
             this.margenBeneficioDataGridViewTextBoxColumn.ReadOnly = true;
-            this.margenBeneficioDataGridViewTextBoxColumn.Width = 139;
+            this.margenBeneficioDataGridViewTextBoxColumn.Width = 164;
             // 
             // precioVentaDataGridViewTextBoxColumn
             // 
@@ -184,7 +185,7 @@
             this.precioVentaDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.precioVentaDataGridViewTextBoxColumn.Name = "precioVentaDataGridViewTextBoxColumn";
             this.precioVentaDataGridViewTextBoxColumn.ReadOnly = true;
-            this.precioVentaDataGridViewTextBoxColumn.Width = 109;
+            this.precioVentaDataGridViewTextBoxColumn.Width = 127;
             // 
             // fechaCreacionDataGridViewTextBoxColumn
             // 
@@ -193,7 +194,7 @@
             this.fechaCreacionDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.fechaCreacionDataGridViewTextBoxColumn.Name = "fechaCreacionDataGridViewTextBoxColumn";
             this.fechaCreacionDataGridViewTextBoxColumn.ReadOnly = true;
-            this.fechaCreacionDataGridViewTextBoxColumn.Width = 124;
+            this.fechaCreacionDataGridViewTextBoxColumn.Width = 146;
             // 
             // articulosBindingSource1
             // 
@@ -226,9 +227,10 @@
             this.btnAgregarArticulos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgregarArticulos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btnAgregarArticulos.ForeColor = System.Drawing.Color.White;
-            this.btnAgregarArticulos.Location = new System.Drawing.Point(449, 487);
+            this.btnAgregarArticulos.Location = new System.Drawing.Point(599, 599);
+            this.btnAgregarArticulos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAgregarArticulos.Name = "btnAgregarArticulos";
-            this.btnAgregarArticulos.Size = new System.Drawing.Size(151, 39);
+            this.btnAgregarArticulos.Size = new System.Drawing.Size(201, 48);
             this.btnAgregarArticulos.TabIndex = 12;
             this.btnAgregarArticulos.Text = "Agregar Articulo";
             this.btnAgregarArticulos.UseVisualStyleBackColor = false;
@@ -239,9 +241,10 @@
             this.label_inventario.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label_inventario.Font = new System.Drawing.Font("Courier New", 24F, System.Drawing.FontStyle.Bold);
             this.label_inventario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(138)))), ((int)(((byte)(71)))));
-            this.label_inventario.Location = new System.Drawing.Point(575, 24);
+            this.label_inventario.Location = new System.Drawing.Point(767, 30);
+            this.label_inventario.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_inventario.Name = "label_inventario";
-            this.label_inventario.Size = new System.Drawing.Size(224, 44);
+            this.label_inventario.Size = new System.Drawing.Size(299, 54);
             this.label_inventario.TabIndex = 14;
             this.label_inventario.Text = "Inventario";
             // 
@@ -252,9 +255,10 @@
             this.btnActualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnActualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btnActualizar.ForeColor = System.Drawing.Color.White;
-            this.btnActualizar.Location = new System.Drawing.Point(655, 487);
+            this.btnActualizar.Location = new System.Drawing.Point(873, 599);
+            this.btnActualizar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnActualizar.Name = "btnActualizar";
-            this.btnActualizar.Size = new System.Drawing.Size(151, 39);
+            this.btnActualizar.Size = new System.Drawing.Size(201, 48);
             this.btnActualizar.TabIndex = 15;
             this.btnActualizar.Text = "Modificar Articulo";
             this.btnActualizar.UseVisualStyleBackColor = false;
@@ -267,9 +271,10 @@
             this.btnInsertarMercancia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnInsertarMercancia.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btnInsertarMercancia.ForeColor = System.Drawing.Color.White;
-            this.btnInsertarMercancia.Location = new System.Drawing.Point(860, 487);
+            this.btnInsertarMercancia.Location = new System.Drawing.Point(1147, 599);
+            this.btnInsertarMercancia.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnInsertarMercancia.Name = "btnInsertarMercancia";
-            this.btnInsertarMercancia.Size = new System.Drawing.Size(151, 39);
+            this.btnInsertarMercancia.Size = new System.Drawing.Size(201, 48);
             this.btnInsertarMercancia.TabIndex = 17;
             this.btnInsertarMercancia.Text = "Insertar Mercancia";
             this.btnInsertarMercancia.UseVisualStyleBackColor = false;
@@ -282,9 +287,10 @@
             this.btnDesactivar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDesactivar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btnDesactivar.ForeColor = System.Drawing.Color.White;
-            this.btnDesactivar.Location = new System.Drawing.Point(1063, 487);
+            this.btnDesactivar.Location = new System.Drawing.Point(1417, 599);
+            this.btnDesactivar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnDesactivar.Name = "btnDesactivar";
-            this.btnDesactivar.Size = new System.Drawing.Size(151, 39);
+            this.btnDesactivar.Size = new System.Drawing.Size(201, 48);
             this.btnDesactivar.TabIndex = 18;
             this.btnDesactivar.Text = "Desactivar Articulo";
             this.btnDesactivar.UseVisualStyleBackColor = false;
@@ -294,9 +300,10 @@
             // 
             this.pictureBox4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox4.Image = global::Negocio.Properties.Resources.sugar_free_1428956;
-            this.pictureBox4.Location = new System.Drawing.Point(1064, 409);
+            this.pictureBox4.Location = new System.Drawing.Point(1419, 503);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(149, 70);
+            this.pictureBox4.Size = new System.Drawing.Size(199, 86);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 20;
             this.pictureBox4.TabStop = false;
@@ -305,9 +312,10 @@
             // 
             this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox3.Image = global::Negocio.Properties.Resources.cart_891407;
-            this.pictureBox3.Location = new System.Drawing.Point(862, 411);
+            this.pictureBox3.Location = new System.Drawing.Point(1149, 506);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(144, 68);
+            this.pictureBox3.Size = new System.Drawing.Size(192, 84);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 19;
             this.pictureBox3.TabStop = false;
@@ -316,9 +324,10 @@
             // 
             this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox2.Image = global::Negocio.Properties.Resources.edit;
-            this.pictureBox2.Location = new System.Drawing.Point(662, 411);
+            this.pictureBox2.Location = new System.Drawing.Point(883, 506);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(144, 68);
+            this.pictureBox2.Size = new System.Drawing.Size(192, 84);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 16;
             this.pictureBox2.TabStop = false;
@@ -327,9 +336,10 @@
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.Image = global::Negocio.Properties.Resources.agregar_producto;
-            this.pictureBox1.Location = new System.Drawing.Point(449, 411);
+            this.pictureBox1.Location = new System.Drawing.Point(599, 506);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(144, 68);
+            this.pictureBox1.Size = new System.Drawing.Size(192, 84);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
@@ -342,20 +352,39 @@
             this.btnRegresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRegresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
             this.btnRegresar.ForeColor = System.Drawing.Color.White;
-            this.btnRegresar.Location = new System.Drawing.Point(136, 487);
+            this.btnRegresar.Location = new System.Drawing.Point(174, 599);
+            this.btnRegresar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnRegresar.Name = "btnRegresar";
-            this.btnRegresar.Size = new System.Drawing.Size(144, 39);
+            this.btnRegresar.Size = new System.Drawing.Size(192, 48);
             this.btnRegresar.TabIndex = 48;
             this.btnRegresar.Text = "Regresar";
             this.btnRegresar.UseVisualStyleBackColor = false;
             this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
             // 
+            // btnRefrescar
+            // 
+            this.btnRefrescar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnRefrescar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(138)))), ((int)(((byte)(71)))));
+            this.btnRefrescar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
+            this.btnRefrescar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRefrescar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
+            this.btnRefrescar.ForeColor = System.Drawing.Color.White;
+            this.btnRefrescar.Location = new System.Drawing.Point(374, 599);
+            this.btnRefrescar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnRefrescar.Name = "btnRefrescar";
+            this.btnRefrescar.Size = new System.Drawing.Size(192, 48);
+            this.btnRefrescar.TabIndex = 49;
+            this.btnRefrescar.Text = "Refrescar";
+            this.btnRefrescar.UseVisualStyleBackColor = false;
+            this.btnRefrescar.Click += new System.EventHandler(this.btnRefrescar_Click);
+            // 
             // Inventario_Form
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1443, 554);
+            this.ClientSize = new System.Drawing.Size(1924, 682);
+            this.Controls.Add(this.btnRefrescar);
             this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
@@ -368,7 +397,7 @@
             this.Controls.Add(this.btnAgregarArticulos);
             this.Controls.Add(this.dataGridView1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Inventario_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Inventario_Form";
@@ -414,5 +443,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn margenBeneficioDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn precioVentaDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn fechaCreacionDataGridViewTextBoxColumn;
+        private System.Windows.Forms.Button btnRefrescar;
     }
 }
