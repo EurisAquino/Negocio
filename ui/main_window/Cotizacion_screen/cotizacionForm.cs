@@ -33,6 +33,7 @@ namespace Negocio.ui.main_window.Cotizacion_screen
 
                 op.InsertCotizaciones(txtNombre.Text, txtcedularnc.Text, lbxArticulos.SelectedItem.ToString(), txtCantidad.Value, txtprecioVenta.Value, txtDescuento.Value, txtITBIS.Value, txtfechaCotizacion.Value, "TEST");
 
+                /*
                 txtNombre.Text = "";
                 txtcedularnc.Text = "";
                 txtCantidad.Value = 0;
@@ -40,6 +41,7 @@ namespace Negocio.ui.main_window.Cotizacion_screen
                 txtDescuento.Value = 0;
                 txtITBIS.Value = 0;
                 txtfechaCotizacion.Value = DateTime.Now;
+                */
             }
         }
 
