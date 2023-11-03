@@ -32,15 +32,6 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.codigoArticuloDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nombreArticuloDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cantidadDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.familiaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.unidadMedidaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.precioCompraDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.margenBeneficioDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.precioVentaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.fechaCreacionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.articulosBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.businessAPPDataSet1BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.businessAPPDataSet1 = new Negocio.BusinessAPPDataSet1();
@@ -56,6 +47,15 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnRegresar = new System.Windows.Forms.Button();
+            this.codigoArticuloDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nombreArticuloDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cantidadDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.familiaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.unidadMedidaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.precioCompraDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.margenBeneficioDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.precioVentaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fechaCreacionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.articulosBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.businessAPPDataSet1BindingSource)).BeginInit();
@@ -97,8 +97,8 @@
             this.precioVentaDataGridViewTextBoxColumn,
             this.fechaCreacionDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.articulosBindingSource1;
-            this.dataGridView1.Location = new System.Drawing.Point(136, 84);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView1.Location = new System.Drawing.Point(156, 113);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -111,89 +111,9 @@
             this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1077, 292);
+            this.dataGridView1.Size = new System.Drawing.Size(1044, 486);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // codigoArticuloDataGridViewTextBoxColumn
-            // 
-            this.codigoArticuloDataGridViewTextBoxColumn.DataPropertyName = "codigoArticulo";
-            this.codigoArticuloDataGridViewTextBoxColumn.HeaderText = "codigoArticulo";
-            this.codigoArticuloDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.codigoArticuloDataGridViewTextBoxColumn.Name = "codigoArticuloDataGridViewTextBoxColumn";
-            this.codigoArticuloDataGridViewTextBoxColumn.ReadOnly = true;
-            this.codigoArticuloDataGridViewTextBoxColumn.Width = 122;
-            // 
-            // nombreArticuloDataGridViewTextBoxColumn
-            // 
-            this.nombreArticuloDataGridViewTextBoxColumn.DataPropertyName = "nombreArticulo";
-            this.nombreArticuloDataGridViewTextBoxColumn.HeaderText = "nombreArticulo";
-            this.nombreArticuloDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.nombreArticuloDataGridViewTextBoxColumn.Name = "nombreArticuloDataGridViewTextBoxColumn";
-            this.nombreArticuloDataGridViewTextBoxColumn.ReadOnly = true;
-            this.nombreArticuloDataGridViewTextBoxColumn.Width = 128;
-            // 
-            // cantidadDataGridViewTextBoxColumn
-            // 
-            this.cantidadDataGridViewTextBoxColumn.DataPropertyName = "cantidad";
-            this.cantidadDataGridViewTextBoxColumn.HeaderText = "cantidad";
-            this.cantidadDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.cantidadDataGridViewTextBoxColumn.Name = "cantidadDataGridViewTextBoxColumn";
-            this.cantidadDataGridViewTextBoxColumn.ReadOnly = true;
-            this.cantidadDataGridViewTextBoxColumn.Width = 87;
-            // 
-            // familiaDataGridViewTextBoxColumn
-            // 
-            this.familiaDataGridViewTextBoxColumn.DataPropertyName = "familia";
-            this.familiaDataGridViewTextBoxColumn.HeaderText = "familia";
-            this.familiaDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.familiaDataGridViewTextBoxColumn.Name = "familiaDataGridViewTextBoxColumn";
-            this.familiaDataGridViewTextBoxColumn.ReadOnly = true;
-            this.familiaDataGridViewTextBoxColumn.Width = 73;
-            // 
-            // unidadMedidaDataGridViewTextBoxColumn
-            // 
-            this.unidadMedidaDataGridViewTextBoxColumn.DataPropertyName = "unidadMedida";
-            this.unidadMedidaDataGridViewTextBoxColumn.HeaderText = "unidadMedida";
-            this.unidadMedidaDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.unidadMedidaDataGridViewTextBoxColumn.Name = "unidadMedidaDataGridViewTextBoxColumn";
-            this.unidadMedidaDataGridViewTextBoxColumn.ReadOnly = true;
-            this.unidadMedidaDataGridViewTextBoxColumn.Width = 122;
-            // 
-            // precioCompraDataGridViewTextBoxColumn
-            // 
-            this.precioCompraDataGridViewTextBoxColumn.DataPropertyName = "precioCompra";
-            this.precioCompraDataGridViewTextBoxColumn.HeaderText = "precioCompra";
-            this.precioCompraDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.precioCompraDataGridViewTextBoxColumn.Name = "precioCompraDataGridViewTextBoxColumn";
-            this.precioCompraDataGridViewTextBoxColumn.ReadOnly = true;
-            this.precioCompraDataGridViewTextBoxColumn.Width = 121;
-            // 
-            // margenBeneficioDataGridViewTextBoxColumn
-            // 
-            this.margenBeneficioDataGridViewTextBoxColumn.DataPropertyName = "margenBeneficio";
-            this.margenBeneficioDataGridViewTextBoxColumn.HeaderText = "margenBeneficio";
-            this.margenBeneficioDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.margenBeneficioDataGridViewTextBoxColumn.Name = "margenBeneficioDataGridViewTextBoxColumn";
-            this.margenBeneficioDataGridViewTextBoxColumn.ReadOnly = true;
-            this.margenBeneficioDataGridViewTextBoxColumn.Width = 139;
-            // 
-            // precioVentaDataGridViewTextBoxColumn
-            // 
-            this.precioVentaDataGridViewTextBoxColumn.DataPropertyName = "precioVenta";
-            this.precioVentaDataGridViewTextBoxColumn.HeaderText = "precioVenta";
-            this.precioVentaDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.precioVentaDataGridViewTextBoxColumn.Name = "precioVentaDataGridViewTextBoxColumn";
-            this.precioVentaDataGridViewTextBoxColumn.ReadOnly = true;
-            this.precioVentaDataGridViewTextBoxColumn.Width = 109;
-            // 
-            // fechaCreacionDataGridViewTextBoxColumn
-            // 
-            this.fechaCreacionDataGridViewTextBoxColumn.DataPropertyName = "fechaCreacion";
-            this.fechaCreacionDataGridViewTextBoxColumn.HeaderText = "fechaCreacion";
-            this.fechaCreacionDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.fechaCreacionDataGridViewTextBoxColumn.Name = "fechaCreacionDataGridViewTextBoxColumn";
-            this.fechaCreacionDataGridViewTextBoxColumn.ReadOnly = true;
-            this.fechaCreacionDataGridViewTextBoxColumn.Width = 124;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // articulosBindingSource1
             // 
@@ -223,10 +143,12 @@
             // 
             this.btnAgregarArticulos.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnAgregarArticulos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(138)))), ((int)(((byte)(71)))));
+            this.btnAgregarArticulos.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnAgregarArticulos.FlatAppearance.BorderSize = 2;
             this.btnAgregarArticulos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgregarArticulos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btnAgregarArticulos.ForeColor = System.Drawing.Color.White;
-            this.btnAgregarArticulos.Location = new System.Drawing.Point(449, 487);
+            this.btnAgregarArticulos.Location = new System.Drawing.Point(426, 715);
             this.btnAgregarArticulos.Name = "btnAgregarArticulos";
             this.btnAgregarArticulos.Size = new System.Drawing.Size(151, 39);
             this.btnAgregarArticulos.TabIndex = 12;
@@ -238,21 +160,24 @@
             // 
             this.label_inventario.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label_inventario.Font = new System.Drawing.Font("Courier New", 24F, System.Drawing.FontStyle.Bold);
-            this.label_inventario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(138)))), ((int)(((byte)(71)))));
-            this.label_inventario.Location = new System.Drawing.Point(575, 24);
+            this.label_inventario.ForeColor = System.Drawing.Color.White;
+            this.label_inventario.Location = new System.Drawing.Point(611, 38);
             this.label_inventario.Name = "label_inventario";
             this.label_inventario.Size = new System.Drawing.Size(224, 44);
             this.label_inventario.TabIndex = 14;
             this.label_inventario.Text = "Inventario";
+            this.label_inventario.Click += new System.EventHandler(this.label_inventario_Click);
             // 
             // btnActualizar
             // 
             this.btnActualizar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnActualizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(138)))), ((int)(((byte)(71)))));
+            this.btnActualizar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnActualizar.FlatAppearance.BorderSize = 2;
             this.btnActualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnActualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btnActualizar.ForeColor = System.Drawing.Color.White;
-            this.btnActualizar.Location = new System.Drawing.Point(655, 487);
+            this.btnActualizar.Location = new System.Drawing.Point(632, 715);
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(151, 39);
             this.btnActualizar.TabIndex = 15;
@@ -264,12 +189,14 @@
             // 
             this.btnInsertarMercancia.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnInsertarMercancia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(138)))), ((int)(((byte)(71)))));
+            this.btnInsertarMercancia.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnInsertarMercancia.FlatAppearance.BorderSize = 2;
             this.btnInsertarMercancia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnInsertarMercancia.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btnInsertarMercancia.ForeColor = System.Drawing.Color.White;
-            this.btnInsertarMercancia.Location = new System.Drawing.Point(860, 487);
+            this.btnInsertarMercancia.Location = new System.Drawing.Point(830, 715);
             this.btnInsertarMercancia.Name = "btnInsertarMercancia";
-            this.btnInsertarMercancia.Size = new System.Drawing.Size(151, 39);
+            this.btnInsertarMercancia.Size = new System.Drawing.Size(166, 39);
             this.btnInsertarMercancia.TabIndex = 17;
             this.btnInsertarMercancia.Text = "Insertar Mercancia";
             this.btnInsertarMercancia.UseVisualStyleBackColor = false;
@@ -279,12 +206,14 @@
             // 
             this.btnDesactivar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnDesactivar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(138)))), ((int)(((byte)(71)))));
+            this.btnDesactivar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnDesactivar.FlatAppearance.BorderSize = 2;
             this.btnDesactivar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDesactivar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btnDesactivar.ForeColor = System.Drawing.Color.White;
-            this.btnDesactivar.Location = new System.Drawing.Point(1063, 487);
+            this.btnDesactivar.Location = new System.Drawing.Point(1035, 715);
             this.btnDesactivar.Name = "btnDesactivar";
-            this.btnDesactivar.Size = new System.Drawing.Size(151, 39);
+            this.btnDesactivar.Size = new System.Drawing.Size(165, 39);
             this.btnDesactivar.TabIndex = 18;
             this.btnDesactivar.Text = "Desactivar Articulo";
             this.btnDesactivar.UseVisualStyleBackColor = false;
@@ -294,7 +223,7 @@
             // 
             this.pictureBox4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox4.Image = global::Negocio.Properties.Resources.sugar_free_1428956;
-            this.pictureBox4.Location = new System.Drawing.Point(1064, 409);
+            this.pictureBox4.Location = new System.Drawing.Point(1042, 637);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(149, 70);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -305,7 +234,7 @@
             // 
             this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox3.Image = global::Negocio.Properties.Resources.cart_891407;
-            this.pictureBox3.Location = new System.Drawing.Point(862, 411);
+            this.pictureBox3.Location = new System.Drawing.Point(839, 639);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(144, 68);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -316,7 +245,7 @@
             // 
             this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox2.Image = global::Negocio.Properties.Resources.edit;
-            this.pictureBox2.Location = new System.Drawing.Point(662, 411);
+            this.pictureBox2.Location = new System.Drawing.Point(639, 639);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(144, 68);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -327,7 +256,7 @@
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.Image = global::Negocio.Properties.Resources.agregar_producto;
-            this.pictureBox1.Location = new System.Drawing.Point(449, 411);
+            this.pictureBox1.Location = new System.Drawing.Point(426, 639);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(144, 68);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -338,11 +267,12 @@
             // 
             this.btnRegresar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnRegresar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(138)))), ((int)(((byte)(71)))));
-            this.btnRegresar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
+            this.btnRegresar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnRegresar.FlatAppearance.BorderSize = 2;
             this.btnRegresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRegresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
             this.btnRegresar.ForeColor = System.Drawing.Color.White;
-            this.btnRegresar.Location = new System.Drawing.Point(136, 487);
+            this.btnRegresar.Location = new System.Drawing.Point(156, 715);
             this.btnRegresar.Name = "btnRegresar";
             this.btnRegresar.Size = new System.Drawing.Size(144, 39);
             this.btnRegresar.TabIndex = 48;
@@ -350,12 +280,93 @@
             this.btnRegresar.UseVisualStyleBackColor = false;
             this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
             // 
+            // codigoArticuloDataGridViewTextBoxColumn
+            // 
+            this.codigoArticuloDataGridViewTextBoxColumn.DataPropertyName = "codigoArticulo";
+            this.codigoArticuloDataGridViewTextBoxColumn.HeaderText = "Codigo";
+            this.codigoArticuloDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.codigoArticuloDataGridViewTextBoxColumn.Name = "codigoArticuloDataGridViewTextBoxColumn";
+            this.codigoArticuloDataGridViewTextBoxColumn.ReadOnly = true;
+            this.codigoArticuloDataGridViewTextBoxColumn.Width = 77;
+            // 
+            // nombreArticuloDataGridViewTextBoxColumn
+            // 
+            this.nombreArticuloDataGridViewTextBoxColumn.DataPropertyName = "nombreArticulo";
+            this.nombreArticuloDataGridViewTextBoxColumn.HeaderText = "Nombre Articulo";
+            this.nombreArticuloDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.nombreArticuloDataGridViewTextBoxColumn.Name = "nombreArticuloDataGridViewTextBoxColumn";
+            this.nombreArticuloDataGridViewTextBoxColumn.ReadOnly = true;
+            this.nombreArticuloDataGridViewTextBoxColumn.Width = 123;
+            // 
+            // cantidadDataGridViewTextBoxColumn
+            // 
+            this.cantidadDataGridViewTextBoxColumn.DataPropertyName = "cantidad";
+            this.cantidadDataGridViewTextBoxColumn.HeaderText = "Cantidad";
+            this.cantidadDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.cantidadDataGridViewTextBoxColumn.Name = "cantidadDataGridViewTextBoxColumn";
+            this.cantidadDataGridViewTextBoxColumn.ReadOnly = true;
+            this.cantidadDataGridViewTextBoxColumn.Width = 89;
+            // 
+            // familiaDataGridViewTextBoxColumn
+            // 
+            this.familiaDataGridViewTextBoxColumn.DataPropertyName = "familia";
+            this.familiaDataGridViewTextBoxColumn.HeaderText = "Familia";
+            this.familiaDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.familiaDataGridViewTextBoxColumn.Name = "familiaDataGridViewTextBoxColumn";
+            this.familiaDataGridViewTextBoxColumn.ReadOnly = true;
+            this.familiaDataGridViewTextBoxColumn.Width = 77;
+            // 
+            // unidadMedidaDataGridViewTextBoxColumn
+            // 
+            this.unidadMedidaDataGridViewTextBoxColumn.DataPropertyName = "unidadMedida";
+            this.unidadMedidaDataGridViewTextBoxColumn.HeaderText = "Unidad de Medida";
+            this.unidadMedidaDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.unidadMedidaDataGridViewTextBoxColumn.Name = "unidadMedidaDataGridViewTextBoxColumn";
+            this.unidadMedidaDataGridViewTextBoxColumn.ReadOnly = true;
+            this.unidadMedidaDataGridViewTextBoxColumn.Width = 135;
+            // 
+            // precioCompraDataGridViewTextBoxColumn
+            // 
+            this.precioCompraDataGridViewTextBoxColumn.DataPropertyName = "precioCompra";
+            this.precioCompraDataGridViewTextBoxColumn.HeaderText = "Precio de Compra";
+            this.precioCompraDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.precioCompraDataGridViewTextBoxColumn.Name = "precioCompraDataGridViewTextBoxColumn";
+            this.precioCompraDataGridViewTextBoxColumn.ReadOnly = true;
+            this.precioCompraDataGridViewTextBoxColumn.Width = 133;
+            // 
+            // margenBeneficioDataGridViewTextBoxColumn
+            // 
+            this.margenBeneficioDataGridViewTextBoxColumn.DataPropertyName = "margenBeneficio";
+            this.margenBeneficioDataGridViewTextBoxColumn.HeaderText = "Margen Beneficio";
+            this.margenBeneficioDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.margenBeneficioDataGridViewTextBoxColumn.Name = "margenBeneficioDataGridViewTextBoxColumn";
+            this.margenBeneficioDataGridViewTextBoxColumn.ReadOnly = true;
+            this.margenBeneficioDataGridViewTextBoxColumn.Width = 131;
+            // 
+            // precioVentaDataGridViewTextBoxColumn
+            // 
+            this.precioVentaDataGridViewTextBoxColumn.DataPropertyName = "precioVenta";
+            this.precioVentaDataGridViewTextBoxColumn.HeaderText = "Precio de venta";
+            this.precioVentaDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.precioVentaDataGridViewTextBoxColumn.Name = "precioVentaDataGridViewTextBoxColumn";
+            this.precioVentaDataGridViewTextBoxColumn.ReadOnly = true;
+            this.precioVentaDataGridViewTextBoxColumn.Width = 89;
+            // 
+            // fechaCreacionDataGridViewTextBoxColumn
+            // 
+            this.fechaCreacionDataGridViewTextBoxColumn.DataPropertyName = "fechaCreacion";
+            this.fechaCreacionDataGridViewTextBoxColumn.HeaderText = "Fecha de creacion";
+            this.fechaCreacionDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.fechaCreacionDataGridViewTextBoxColumn.Name = "fechaCreacionDataGridViewTextBoxColumn";
+            this.fechaCreacionDataGridViewTextBoxColumn.ReadOnly = true;
+            this.fechaCreacionDataGridViewTextBoxColumn.Width = 137;
+            // 
             // Inventario_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1443, 554);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(52)))), ((int)(((byte)(52)))));
+            this.ClientSize = new System.Drawing.Size(1443, 818);
             this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
@@ -368,7 +379,7 @@
             this.Controls.Add(this.btnAgregarArticulos);
             this.Controls.Add(this.dataGridView1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Inventario_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Inventario_Form";

@@ -21,5 +21,16 @@ namespace Negocio.ui.main_window.Cotizacion_screen
         {
             this.Close();
         }
+
+        private void btnCrear_Click(object sender, EventArgs e)
+        {
+            crearCotizacion crearCotizacion = new crearCotizacion();
+            crearCotizacion.ShowDialog();
+        }
+
+        private void btnActualizar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

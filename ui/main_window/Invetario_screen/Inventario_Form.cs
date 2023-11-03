@@ -60,5 +60,15 @@ namespace Negocio.ui.Invetario_screen
         {
             this.Close();
         }
+
+        private void label_inventario_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

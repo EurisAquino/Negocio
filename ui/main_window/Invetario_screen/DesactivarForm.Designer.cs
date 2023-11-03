@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.insertarMercancia = new System.Windows.Forms.Label();
             this.btnActualizar = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
@@ -51,10 +51,9 @@
             // 
             // insertarMercancia
             // 
-            this.insertarMercancia.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.insertarMercancia.Font = new System.Drawing.Font("Courier New", 24F, System.Drawing.FontStyle.Bold);
             this.insertarMercancia.ForeColor = System.Drawing.Color.White;
-            this.insertarMercancia.Location = new System.Drawing.Point(505, 25);
+            this.insertarMercancia.Location = new System.Drawing.Point(552, 28);
             this.insertarMercancia.Name = "insertarMercancia";
             this.insertarMercancia.Size = new System.Drawing.Size(435, 44);
             this.insertarMercancia.TabIndex = 40;
@@ -67,7 +66,7 @@
             this.btnActualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnActualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
             this.btnActualizar.ForeColor = System.Drawing.Color.White;
-            this.btnActualizar.Location = new System.Drawing.Point(379, 636);
+            this.btnActualizar.Location = new System.Drawing.Point(426, 756);
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(159, 49);
             this.btnActualizar.TabIndex = 39;
@@ -79,7 +78,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(545, 578);
+            this.label8.Location = new System.Drawing.Point(592, 698);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(148, 24);
             this.label8.TabIndex = 38;
@@ -92,7 +91,7 @@
             this.btnBuscarArticulo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscarArticulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
             this.btnBuscarArticulo.ForeColor = System.Drawing.Color.White;
-            this.btnBuscarArticulo.Location = new System.Drawing.Point(721, 638);
+            this.btnBuscarArticulo.Location = new System.Drawing.Point(768, 758);
             this.btnBuscarArticulo.Margin = new System.Windows.Forms.Padding(2);
             this.btnBuscarArticulo.Name = "btnBuscarArticulo";
             this.btnBuscarArticulo.Size = new System.Drawing.Size(209, 47);
@@ -107,7 +106,7 @@
             this.btnRegresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRegresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
             this.btnRegresar.ForeColor = System.Drawing.Color.White;
-            this.btnRegresar.Location = new System.Drawing.Point(159, 636);
+            this.btnRegresar.Location = new System.Drawing.Point(206, 756);
             this.btnRegresar.Name = "btnRegresar";
             this.btnRegresar.Size = new System.Drawing.Size(144, 49);
             this.btnRegresar.TabIndex = 35;
@@ -119,7 +118,7 @@
             // 
             this.txtCodigoArticulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.txtCodigoArticulo.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.txtCodigoArticulo.Location = new System.Drawing.Point(721, 578);
+            this.txtCodigoArticulo.Location = new System.Drawing.Point(768, 698);
             this.txtCodigoArticulo.Margin = new System.Windows.Forms.Padding(2);
             this.txtCodigoArticulo.Name = "txtCodigoArticulo";
             this.txtCodigoArticulo.Size = new System.Drawing.Size(209, 26);
@@ -128,14 +127,14 @@
             // dataGridView1
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.codArticulo,
@@ -146,9 +145,9 @@
             this.precioCompra,
             this.margenBeneficio,
             this.precioVenta});
-            this.dataGridView1.Location = new System.Drawing.Point(159, 99);
+            this.dataGridView1.Location = new System.Drawing.Point(206, 102);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(1065, 438);
+            this.dataGridView1.Size = new System.Drawing.Size(1065, 545);
             this.dataGridView1.TabIndex = 34;
             // 
             // codArticulo
@@ -204,7 +203,7 @@
             this.btnDesactivar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDesactivar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
             this.btnDesactivar.ForeColor = System.Drawing.Color.White;
-            this.btnDesactivar.Location = new System.Drawing.Point(1023, 643);
+            this.btnDesactivar.Location = new System.Drawing.Point(1070, 763);
             this.btnDesactivar.Name = "btnDesactivar";
             this.btnDesactivar.Size = new System.Drawing.Size(201, 44);
             this.btnDesactivar.TabIndex = 42;
@@ -218,7 +217,7 @@
             this.btnActivar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnActivar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
             this.btnActivar.ForeColor = System.Drawing.Color.White;
-            this.btnActivar.Location = new System.Drawing.Point(1023, 578);
+            this.btnActivar.Location = new System.Drawing.Point(1070, 698);
             this.btnActivar.Name = "btnActivar";
             this.btnActivar.Size = new System.Drawing.Size(201, 44);
             this.btnActivar.TabIndex = 41;
@@ -230,7 +229,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
-            this.ClientSize = new System.Drawing.Size(1401, 749);
+            this.ClientSize = new System.Drawing.Size(1401, 851);
             this.Controls.Add(this.btnDesactivar);
             this.Controls.Add(this.btnActivar);
             this.Controls.Add(this.insertarMercancia);
@@ -244,6 +243,7 @@
             this.Name = "DesactivarForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DesactivarForm";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

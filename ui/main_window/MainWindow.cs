@@ -41,5 +41,7 @@ namespace Negocio.ui.main_window
             cotizacionForm.ShowDialog();
    
         }
+
+
     }
 }

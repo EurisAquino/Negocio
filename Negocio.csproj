@@ -120,6 +120,7 @@
     <Reference Include="System.Diagnostics.DiagnosticSource, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>packages\System.Diagnostics.DiagnosticSource.4.6.0\lib\net46\System.Diagnostics.DiagnosticSource.dll</HintPath>
     </Reference>
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.IdentityModel" />
     <Reference Include="System.IdentityModel.Tokens.Jwt, Version=6.24.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>packages\System.IdentityModel.Tokens.Jwt.6.24.0\lib\net472\System.IdentityModel.Tokens.Jwt.dll</HintPath>
@@ -239,12 +240,22 @@
     <Compile Include="Database\Connection.cs" />
     <Compile Include="Database\DBOperations.cs" />
     <Compile Include="Metodos\Metodos.cs" />
+    <Compile Include="ui\login_screen\LoginScreen_PictureRound.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="ui\main_window\Cotizacion_screen\cotizacionForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ui\main_window\Cotizacion_screen\cotizacionForm.Designer.cs">
       <DependentUpon>cotizacionForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ui\main_window\Cotizacion_screen\crearCotizacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\main_window\Cotizacion_screen\crearCotizacion.Designer.cs">
+      <DependentUpon>crearCotizacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\main_window\Cotizacion_screen\NumericTextBoxColumn.cs" />
     <Compile Include="ui\main_window\Invetario_screen\AgregarForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -315,6 +326,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ui\main_window\Cotizacion_screen\cotizacionForm.resx">
       <DependentUpon>cotizacionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\main_window\Cotizacion_screen\crearCotizacion.resx">
+      <DependentUpon>crearCotizacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ui\main_window\Invetario_screen\AgregarForm.resx">
       <DependentUpon>AgregarForm.cs</DependentUpon>
@@ -439,6 +453,7 @@
     <None Include="Resources\boxes_3638928 %281%29.png" />
     <None Include="Resources\engineer_2219616.png" />
     <None Include="Resources\cart_891407.png" />
+    <None Include="Resources\Logo-Actualizado.jpeg" />
     <Content Include="Resources\plus.png" />
     <None Include="Resources\return.png" />
     <None Include="Resources\plus1.png" />

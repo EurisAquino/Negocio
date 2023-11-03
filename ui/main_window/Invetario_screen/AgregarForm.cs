@@ -30,7 +30,7 @@ namespace Negocio.ui.Invetario_screen
             DBOperations op = new DBOperations();
 
             //Insertar articulo a la base de datos
-            op.InsertArticulo(txtCodigo.Text.ToUpper(), txtNombre.Text.ToUpper(), ((int)numCantidad.Value), txtFamilia.Text.ToUpper(), txtUnidad.Text.ToUpper(), ((decimal)numPrecioCompra.Value), ((decimal)numMargen.Value), ((decimal)numPrecioVenta.Value), dateFecha.Value);
+            //  op.InsertArticulo(txtCodigo.Text.ToUpper(), txtNombre.Text.ToUpper(), txtFamilia.Text.ToUpper(), txtUnidad.Text.ToUpper(), dateFecha.Value);
 
         }
 
