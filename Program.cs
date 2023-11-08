@@ -20,7 +20,7 @@ namespace Negocio
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new crearCotizacion());
+            Application.Run(new SplashScreen());
             
         }   
     }
